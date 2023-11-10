@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #234854;
+    height: 100%;
+}
+
+.main_box {
+    display: grid;
+    place-content: center;
+    width: 250px;
+    height: auto;
+    gap: 10px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    margin-top: 75px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.main_box h1 {
+    font-size: 15pt;
+    text-align: center;
+}
+
+.main_box label {
+    font-weight: bold;
+}
+
+.main_box input {
+    height: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    padding-left: 7px;
+    color: #353535;
+    font-weight: bold;
+}
+
+.main_box input::placeholder {
+    font-weight: 300;
+}
+
+.main_box input:focus {
+    border: 1px solid #cccccc;
+    outline: none;
+}
+
+#label_mensagem {
+    margin-top: 10px;
+}
+
+.main_box textarea {
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    resize: none;
+    font-weight: bold;
+    height: 50px;
+}
+
+.main_box textarea::placeholder {
+    font-weight: 300;
+}
+
+.main_box textarea:focus {
+    border: 1px solid #cccccc;
+    outline: none;
+}
+
+.main_box button {
+    background-color: #32d486;
+    border: 0px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+    font-size: 11pt;
+}
+
+.main_box button:hover {
+    background-color: #48f4a1;
+}
+
+.resultado {
+    background-color: white;
+    border-radius: 15px;
+    height: auto;
+    width: auto;
+    max-width: 800px;
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.dentro_resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#link_whatsapp {
+    font-size: 10pt;
+    cursor: pointer;
+    color: gray;
+}
+
+.resultado h2 {
+    font-size: 14pt;
+    text-align: center;
+}
+
+#copiar_link, #btn_reset {
+    height: 35px;
+    width: 175px;
+    color: gray;
+    background-color: white;
+    border-radius: 50px;
+    border: 2px solid gray;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 15px;
+}

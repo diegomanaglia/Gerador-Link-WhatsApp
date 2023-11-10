@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerar Link WhatsApp</title>
+    <meta name="description" content="Gerar link WhatsApp - O melhor e mais simples gerador de links de WhatsApp.">
+    <link rel="icon" href="./gerar link whatsapp favicon.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="./style.css" class="css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main_box">
+            <h1>Gerar Link WhatsApp - O mais simples e eficiente gerador de links de WhatsApp</h1>
+            <label for="numero_whatsapp">Número WhatsApp</label>
+            <input id="numero_whatsapp" type="text" placeholder="Ex.: (11) 12345-6789" maxlength="14" autofocus>
+            
+            <label for="texto_mensagem" id="label_mensagem">Mensagem (opcional)</label>
+            <textarea name="" id="texto_mensagem" placeholder="Insira uma mensagem (opcional)"></textarea>
+            <button type="submit" id="btn_gerar_link">Gerar Link WhatsApp</button>
+        </div>
+
+        <div id="resultado" class="resultado hide">
+            <div class="dentro_resultado">
+                <h2>Seu link:</h2>
+                <p id="link_whatsapp"></p>
+                <button id="copiar_link">COPIAR LINK</button>
+                <button type="reset" id="btn_reset">GERAR NOVO LINK</button>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+</html>
